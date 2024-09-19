@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "多功能智算小算盘",
+  "usingComponents": {
+    "uni-grid": "/uni_modules/uni-grid/components/uni-grid/uni-grid",
+    "uni-grid-item": "/uni_modules/uni-grid/components/uni-grid-item/uni-grid-item"
+  }
+}

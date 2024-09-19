@@ -1,0 +1,19 @@
+{
+	"pages": [
+	{
+		"path" : "pages/tuixiu/tuixiu",
+		"style" : 
+		{
+			"navigationBarTitleText" : "法定退休年龄计算器"
+		}
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "多功能智算小算盘",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}

@@ -1,0 +1,129 @@
+@charset "UTF-8";
+/* 水平间距 */
+/* 水平间距 */
+.tuixiu-page {
+  font-size: 14px;
+  line-height: 24px;
+}
+.tuixiu-page .tx-section {
+  background-color: #FFFFFF;
+  padding: 30rpx 30rpx;
+  border-radius: 10rpx;
+  box-shadow: 0px 0px 2px #dddddd;
+  margin-bottom: 20rpx;
+}
+.tuixiu-page .txp-top {
+  background-color: #FFFFFF;
+  padding: 50rpx 30rpx;
+  margin-bottom: 20rpx;
+  position: relative;
+  overflow: hidden;
+}
+.tuixiu-page .txp-top .title {
+  color: #5079e6;
+  font-size: 30px;
+  margin-bottom: 30rpx;
+  font-weight: bold;
+}
+.tuixiu-page .txp-top .subtitle {
+  color: #7e8186;
+}
+.tuixiu-page .txp-top .img {
+  width: 300rpx;
+  position: absolute;
+  top: 0;
+  right: -40rpx;
+}
+.tuixiu-page .tx-submit {
+  width: 400rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  background-color: #5079e6;
+}
+.tuixiu-page .form-item {
+  display: flex;
+  justify-content: space-between;
+  height: 60rpx;
+  margin-bottom: 30rpx;
+}
+.tuixiu-page .form-item .form-item-label {
+  text-align: left;
+  font-size: 14px;
+  color: #606266;
+  height: 36px;
+}
+.tuixiu-page .form-item .form-item-label .red {
+  color: red;
+}
+.tuixiu-page .txp-desc {
+  font-size: 12px;
+  color: #606266;
+  line-height: 40rpx;
+  padding: 20rpx;
+  border-radius: 10rpx;
+}
+.tuixiu-page .uni-link {
+  color: #55aaff;
+}
+@-webkit-keyframes scaleAnimation {
+0% {
+    height: 0px;
+}
+50% {
+    height: 200rpx;
+}
+70% {
+    height: 300rpx;
+}
+100% {
+    height: 100%;
+}
+}
+@keyframes scaleAnimation {
+0% {
+    height: 0px;
+}
+50% {
+    height: 200rpx;
+}
+70% {
+    height: 300rpx;
+}
+100% {
+    height: 100%;
+}
+}
+.tuixiu-page .txp-result {
+  overflow: hidden;
+  border-radius: 20rpx;
+  text-align: left;
+  padding: 50rpx 30rpx 30rpx;
+  line-height: 70rpx;
+  color: #606266;
+  position: relative;
+  -webkit-animation: scaleAnimation 2s 1;
+          animation: scaleAnimation 2s 1;
+}
+.tuixiu-page .txp-result .txp-result-line {
+  height: 60rpx;
+  line-height: 80rpx;
+  text-align: center;
+  background-color: #5079e6;
+  border-radius: 20rpx;
+  box-shadow: 3px 2px #606266;
+  margin-bottom: 30rpx;
+  color: #FFFFFF;
+  position: absolute;
+  top: -20rpx;
+  left: 250rpx;
+  width: 250rpx;
+}
+.tuixiu-page .txp-result .txp-result-item {
+  display: flex;
+  justify-content: space-between;
+}
+.tuixiu-page .txp-result .txp-result-item .right {
+  color: black;
+  font-size: 16px;
+}
+
